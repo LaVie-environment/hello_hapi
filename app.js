@@ -3,7 +3,7 @@
 const Hapi   = require('@hapi/hapi');
 
 const Server = new Hapi.Server({
-    host: 'localhost',
+    host: 'https://cce0-129-205-121-42.ngrok-free.app',
     port: 8080
 });
 const Hello  = require('./lib/hello');
